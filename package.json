@@ -1,0 +1,39 @@
+{
+  "name": "hapi-static-content",
+  "version": "0.0.1",
+  "description": "Hapi.js static content delivery plugin",
+  "main": "index.js",
+  "scripts": {
+    "ensure-node-modules": "npm install",
+    "pretest": "npm run ensure-node-modules",
+    "test": "node_modules/.bin/gulp test",
+    "prestart": "npm run ensure-node-modules",
+    "start": "node_modules/.bin/gulp docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JawjLindo/hapi-static-content.git"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "static"
+  ],
+  "author": "Mike Linde <mlinde@lintechsol.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JawjLindo/hapi-static-content/issues"
+  },
+  "homepage": "https://github.com/JawjLindo/hapi-static-content",
+  "dependencies": {
+    "coffee-script": "^1.9.1",
+    "hapi": "^8.4.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "gulp": "^3.8.11",
+    "gulp-lab": "^1.0.5",
+    "lab": "^5.5.1",
+    "underscore": "^1.8.3"
+  }
+}
